@@ -1,5 +1,3 @@
-<img src="./assets/header.png" />
-
 <div align="center" >
 
 ## Hi there 👋, I'm Ali Moradi!
@@ -17,8 +15,6 @@
 - 🔐 Secure authentication (JWT) & background job processing
 
 ---
-
-<img src="./assets/me.png" />
 
 <div align="center">
 
