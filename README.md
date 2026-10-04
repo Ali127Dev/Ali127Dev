@@ -1,10 +1,12 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+  <img alt="Ali Moradi — Backend Software Engineer" src="./assets/header-dark.svg" width="760" />
+</picture>
+
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3200&pause=900&color=C9A961&center=true&vCenter=true&width=520&lines=Designing+systems+that+stay+calm+under+load.;Event-driven+%C2%B7+Observable+%C2%B7+Built+to+scale.;Boring+code.+Reliable+production." alt="tagline" />
-
-# 𝐀𝐋𝐈 𝐌𝐎𝐑𝐀𝐃𝐈
-
-**B A C K E N D &nbsp; S O F T W A R E &nbsp; E N G I N E E R**
 
 <sub>Distributed Systems &nbsp;·&nbsp; System Design &nbsp;·&nbsp; Production Reliability</sub>
 
@@ -88,6 +90,8 @@ Broker-agnostic **Transactional Outbox** for Go. Write your state and your event
 
 [![tag](https://img.shields.io/github/v/tag/Ali127Dev/xoutbox?style=flat-square&label=latest&labelColor=0d1117&color=C9A961)](https://github.com/Ali127Dev/xoutbox/tags)
 [![Go](https://img.shields.io/github/go-mod/go-version/Ali127Dev/xoutbox?style=flat-square&labelColor=0d1117&color=00ADD8&logo=go&logoColor=white)](https://github.com/Ali127Dev/xoutbox)
+[![Go Reference](https://img.shields.io/badge/pkg.go.dev-reference-0d1117?style=flat-square&logo=go&logoColor=00ADD8&labelColor=0d1117&color=161b22)](https://pkg.go.dev/github.com/Ali127Dev/xoutbox)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Ali127Dev/xoutbox?style=flat-square)](https://goreportcard.com/report/github.com/Ali127Dev/xoutbox)
 
 </td>
 <td width="50%" valign="top">
@@ -98,6 +102,8 @@ Broker-agnostic **Transactional Outbox** for Go. Write your state and your event
 
 [![tag](https://img.shields.io/github/v/tag/Ali127Dev/xerr?style=flat-square&label=latest&labelColor=0d1117&color=C9A961)](https://github.com/Ali127Dev/xerr/tags)
 [![Go](https://img.shields.io/github/go-mod/go-version/Ali127Dev/xerr?style=flat-square&labelColor=0d1117&color=00ADD8&logo=go&logoColor=white)](https://github.com/Ali127Dev/xerr)
+[![Go Reference](https://img.shields.io/badge/pkg.go.dev-reference-0d1117?style=flat-square&logo=go&logoColor=00ADD8&labelColor=0d1117&color=161b22)](https://pkg.go.dev/github.com/Ali127Dev/xerr/v3)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Ali127Dev/xerr?style=flat-square)](https://goreportcard.com/report/github.com/Ali127Dev/xerr)
 
 </td>
 </tr>
@@ -125,6 +131,40 @@ Broker-agnostic **Transactional Outbox** for Go. Write your state and your event
 <td><img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,gitlab,prometheus,grafana&theme=dark" height="40" alt="infra" /> &nbsp;<sub>+ OpenTelemetry</sub></td>
 </tr>
 </table>
+
+<br/>
+
+## ⟡ &nbsp;Tech Radar
+
+```mermaid
+%%{init: {"theme": "dark", "themeVariables": {"quadrant1Fill": "#1c1a14", "quadrant2Fill": "#14161a", "quadrant3Fill": "#0d1117", "quadrant4Fill": "#14161a", "quadrantPointFill": "#C9A961", "quadrantTitleFill": "#C9A961", "quadrantPointTextFill": "#e6edf3", "quadrantXAxisTextFill": "#8b949e", "quadrantYAxisTextFill": "#8b949e", "quadrantInternalBorderStrokeFill": "#30363d", "quadrantExternalBorderStrokeFill": "#C9A961"}}}%%
+quadrantChart
+    x-axis Occasional --> Daily Driver
+    y-axis Exploring --> Expert
+    quadrant-1 Core Arsenal
+    quadrant-2 Deep but Selective
+    quadrant-3 On the Radar
+    quadrant-4 Growing Fast
+    Go: [0.92, 0.9]
+    PostgreSQL: [0.86, 0.84]
+    TypeScript: [0.74, 0.8]
+    Redis: [0.7, 0.74]
+    NATS JetStream: [0.66, 0.62]
+    Docker: [0.8, 0.66]
+    NestJS: [0.45, 0.78]
+    Kafka: [0.32, 0.6]
+    OpenTelemetry: [0.58, 0.42]
+    Kubernetes: [0.4, 0.36]
+    Rust: [0.18, 0.3]
+    Java: [0.12, 0.42]
+```
+
+<br/>
+
+## ⟡ &nbsp;Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 <br/>
 

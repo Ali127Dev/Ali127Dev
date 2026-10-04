@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="230" viewBox="0 0 860 230" fill="none">
+  <style>
+    .draw { stroke-dasharray: 260; stroke-dashoffset: 260; animation: draw 1.6s ease-out forwards; }
+    .line { stroke-dasharray: 300; stroke-dashoffset: 300; animation: draw 1.4s 0.6s ease-out forwards; }
+    .fade { opacity: 0; animation: fade 1s 0.5s ease-out forwards; }
+    .fade2 { opacity: 0; animation: fade 1s 1.1s ease-out forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes fade { to { opacity: 1; } }
+  </style>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8D3A2"/>
+      <stop offset="0.5" stop-color="#C9A961"/>
+      <stop offset="1" stop-color="#9C7C3C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- monogram -->
+  <g transform="translate(430 62)">
+    <rect class="draw" x="-30" y="-30" width="60" height="60" transform="rotate(45)" stroke="url(#gold)" stroke-width="1.5"/>
+    <rect class="draw" x="-23" y="-23" width="46" height="46" transform="rotate(45)" stroke="url(#gold)" stroke-width="0.6" opacity="0.6"/>
+    <text class="fade" x="0" y="8" text-anchor="middle" font-family="Didot, 'Bodoni 72', Georgia, 'Times New Roman', serif" font-size="24" letter-spacing="2" fill="url(#gold)">AM</text>
+  </g>
+
+  <!-- name -->
+  <text class="fade" x="430" y="152" text-anchor="middle" font-family="Didot, 'Bodoni 72', Georgia, 'Times New Roman', serif" font-size="40" letter-spacing="14" fill="#E6EDF3">ALI MORADI</text>
+
+  <!-- rules -->
+  <line class="line" x1="150" y1="178" x2="370" y2="178" stroke="#C9A961" stroke-width="1"/>
+  <line class="line" x1="710" y1="178" x2="490" y2="178" stroke="#C9A961" stroke-width="1"/>
+  <rect class="fade2" x="426" y="174" width="8" height="8" transform="rotate(45 430 178)" fill="url(#gold)"/>
+
+  <text class="fade2" x="430" y="212" text-anchor="middle" font-family="'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="6" fill="#8B949E">BACKEND SOFTWARE ENGINEER</text>
+</svg>
