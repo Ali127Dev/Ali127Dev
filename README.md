@@ -164,6 +164,11 @@ quadrantChart
 ## ⟡ &nbsp;Recent Activity
 
 <!--START_SECTION:activity-->
+1. 🚀 Published release [v0.1.0](https://github.com/Ali127Dev/xoutbox/releases/tag/v0.1.0) in [Ali127Dev/xoutbox](https://github.com/Ali127Dev/xoutbox)
+2. 🚀 Published release [v3.0.0](https://github.com/Ali127Dev/xerr/releases/tag/v3.0.0) in [Ali127Dev/xerr](https://github.com/Ali127Dev/xerr)
+3. 🚀 Published release [v2.1.0](https://github.com/Ali127Dev/xerr/releases/tag/v2.1.0) in [Ali127Dev/xerr](https://github.com/Ali127Dev/xerr)
+4. 🚀 Published release [v2.0.0 — Layer-aware error handling](https://github.com/Ali127Dev/xerr/releases/tag/v2.0.0) in [Ali127Dev/xerr](https://github.com/Ali127Dev/xerr)
+5. 🎉 Merged PR [#1](https://github.com/Ali127Dev/coin-trust/pull/1) in [Ali127Dev/coin-trust](https://github.com/Ali127Dev/coin-trust)
 <!--END_SECTION:activity-->
 
 <br/>
