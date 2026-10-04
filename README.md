@@ -1,46 +1,81 @@
-## Hey there 👋, I'm Ali Moradi!
+<div align="center">
 
-I’m a backend-focused engineer who loves building **fast, predictable, and scalable** systems.  
-My passion is crafting services that behave well under load, grow without drama, and stay clean enough for future engineers to thank me later 😄.
+<img src="./assets/header.svg" width="100%" alt="Ali Moradi — Backend Engineer"/>
 
-From designing **high‑concurrency APIs**, optimizing **PostgreSQL queries**, and architecting **microservices**,  
-to migrating **legacy systems** into modern, observable, maintainable backends — this is where I feel at home.  
-I care deeply about performance, clarity, and engineering that scales with confidence.
+<br/><br/>
 
-## What I enjoy building 🚀
+<a href="https://linkedin.com/in/ali127dev"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=C9A96E"/></a>
+<a href="mailto:ali127dev@gmail.com"><img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=C9A96E"/></a>
 
-- ⚡ High‑throughput, low‑latency APIs that don’t break under pressure
-- 🧠 Microservices with clean boundaries and predictable behavior
-- 🗄 Database schemas, indexes, and queries that actually perform
-- 🚀 Modernizing old systems without blowing things up
-- 🔐 Robust authentication, secure sessions & background jobs
-- 📈 Production-ready systems with metrics, logs & true observability
-- 🧰 Clean, well‑documented backend code that improves teamwork
+</div>
 
-## Engineering Philosophy 💡
+<br/>
 
-> "Code should be predictable, maintainable, and boring —  
-> because boring code is the most reliable one when things get wild in production."
+<h3 align="center">A B O U T</h3>
 
-## Tech Stack 🧠
+```go
+var ali = Engineer{
+    Role:     "Backend Engineer",
+    Stack:    []string{"Go", "TypeScript", "PostgreSQL", "NATS", "Kafka"},
+    Focus:    []string{"Distributed Systems", "Event-Driven Architecture", "Production Reliability"},
+    Building: []string{"TrueFlow — HR platform, DDD + Hexagonal", "Go microservices @ Qbify"},
+    Believes: "Design for failure, not for the demo.",
+}
+```
 
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)
-![Next JS](https://img.shields.io/badge/Next-black.svg?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-%23000000.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+<br/>
 
-> 💬 _Let’s build something that scales beautifully — and breaks gracefully if it must!_
+<h3 align="center">H O W &nbsp; I &nbsp; B U I L D</h3>
+
+<img src="./assets/architecture.svg" width="100%" alt="Transactional Outbox — how I build"/>
+
+<br/>
+
+<h3 align="center">O P E N &nbsp; S O U R C E</h3>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [`xoutbox`](https://github.com/Ali127Dev/xoutbox)
+<img src="https://img.shields.io/github/v/release/Ali127Dev/xoutbox?style=flat-square&color=C9A96E&labelColor=0A0A0A&label=release"/>
+
+Broker-agnostic **Transactional Outbox** for Go. Guaranteed delivery and zero dual-write drift, with pluggable adapters for Kafka, NATS & RabbitMQ.
+
+</td>
+<td width="50%" valign="top">
+
+#### [`xerr`](https://github.com/Ali127Dev/xerr)
+<img src="https://img.shields.io/github/v/release/Ali127Dev/xerr?style=flat-square&color=C9A96E&labelColor=0A0A0A&label=release"/>
+
+**Structured error handling** for Go services. Errors are typed, contextual, and traceable, and the library runs in production at Qbify.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<h3 align="center">A R S E N A L</h3>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Go-0A0A0A?style=for-the-badge&logo=go&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/TypeScript-0A0A0A?style=for-the-badge&logo=typescript&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/NestJS-0A0A0A?style=for-the-badge&logo=nestjs&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=nodedotjs&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/PostgreSQL-0A0A0A?style=for-the-badge&logo=postgresql&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/Redis-0A0A0A?style=for-the-badge&logo=redis&logoColor=C9A96E"/>
+<br/>
+<img src="https://img.shields.io/badge/NATS-0A0A0A?style=for-the-badge&logo=natsdotio&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/Kafka-0A0A0A?style=for-the-badge&logo=apachekafka&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/Docker-0A0A0A?style=for-the-badge&logo=docker&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/Kubernetes-0A0A0A?style=for-the-badge&logo=kubernetes&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/Prometheus-0A0A0A?style=for-the-badge&logo=prometheus&logoColor=C9A96E"/>
+<img src="https://img.shields.io/badge/OpenTelemetry-0A0A0A?style=for-the-badge&logo=opentelemetry&logoColor=C9A96E"/>
+
+</div>
+
+<br/>
+
+<img src="./assets/footer.svg" width="100%" alt="Scales beautifully. Breaks gracefully."/>
