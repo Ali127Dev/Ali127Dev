@@ -1,54 +1,74 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Ali Moradi — Backend Engineer"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3200&pause=900&color=C9A961&center=true&vCenter=true&width=520&lines=Designing+systems+that+stay+calm+under+load.;Event-driven+%C2%B7+Observable+%C2%B7+Built+to+scale.;Boring+code.+Reliable+production." alt="tagline" />
 
-<br/><br/>
+# 𝐀𝐋𝐈 𝐌𝐎𝐑𝐀𝐃𝐈
 
-<a href="https://linkedin.com/in/ali127dev"><img src="https://img.shields.io/badge/LinkedIn-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=C9A96E"/></a>
-<a href="mailto:ali127dev@gmail.com"><img src="https://img.shields.io/badge/Email-0A0A0A?style=for-the-badge&logo=gmail&logoColor=C9A96E"/></a>
+**B A C K E N D &nbsp; S O F T W A R E &nbsp; E N G I N E E R**
+
+<sub>Distributed Systems &nbsp;·&nbsp; System Design &nbsp;·&nbsp; Production Reliability</sub>
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=C9A961)](https://linkedin.com/in/ali127dev)
+[![Email](https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=C9A961)](mailto:ali127dev@gmail.com)
+[![Status](https://img.shields.io/badge/Open_to-Relocation_·_Remote-0d1117?style=for-the-badge&labelColor=C9A961)](#)
 
 </div>
 
 <br/>
 
-<h3 align="center">A B O U T</h3>
-
 ```go
-var ali = Engineer{
-    Role:     "Backend Engineer",
-    Stack:    []string{"Go", "TypeScript", "PostgreSQL", "NATS", "Kafka"},
-    Focus:    []string{"Distributed Systems", "Event-Driven Architecture", "Production Reliability"},
-    Building: []string{"TrueFlow — HR platform, DDD + Hexagonal", "Go microservices @ Qbify"},
-    Believes: "Design for failure, not for the demo.",
+package main
+
+// whoami — the short version.
+type Engineer struct {
+	Name      string
+	Role      string
+	Speaks    []string
+	ThinksIn  []string
+	Obsession string
+	Motto     string
+}
+
+var Ali = Engineer{
+	Name:      "Ali Moradi",
+	Role:      "Backend Software Engineer",
+	Speaks:    []string{"Go", "TypeScript", "SQL"},
+	ThinksIn:  []string{"Bounded Contexts", "Events", "Failure Modes"},
+	Obsession: "systems that behave predictably at 3 AM",
+	Motto:     "boring code, reliable production",
 }
 ```
 
 <br/>
 
-<h3 align="center">H O W &nbsp; I &nbsp; B U I L D</h3>
-
-<img src="./assets/architecture.svg" width="100%" alt="Transactional Outbox — how I build"/>
-
-<br/>
-
-<h3 align="center">O P E N &nbsp; S O U R C E</h3>
+## ⟡ &nbsp;Focus
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top" align="center">
 
-#### [`xoutbox`](https://github.com/Ali127Dev/xoutbox)
-<img src="https://img.shields.io/github/v/release/Ali127Dev/xoutbox?style=flat-square&color=C9A96E&labelColor=0A0A0A&label=release"/>
+### 🛰
+**Distributed Systems**
 
-Broker-agnostic **Transactional Outbox** for Go. Guaranteed delivery and zero dual-write drift, with pluggable adapters for Kafka, NATS & RabbitMQ.
+<sub>Event-driven services, clean boundaries, delivery guarantees that hold through restarts and partitions.</sub>
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top" align="center">
 
-#### [`xerr`](https://github.com/Ali127Dev/xerr)
-<img src="https://img.shields.io/github/v/release/Ali127Dev/xerr?style=flat-square&color=C9A96E&labelColor=0A0A0A&label=release"/>
+### 🗄
+**Data & Performance**
 
-**Structured error handling** for Go services. Errors are typed, contextual, and traceable, and the library runs in production at Qbify.
+<sub>Schemas, indexes and queries shaped by real access patterns, not guesses.</sub>
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 📡
+**Reliability & Observability**
+
+<sub>Metrics, traces and logs that answer the question before someone has to ask it.</sub>
 
 </td>
 </tr>
@@ -56,26 +76,87 @@ Broker-agnostic **Transactional Outbox** for Go. Guaranteed delivery and zero du
 
 <br/>
 
-<h3 align="center">A R S E N A L</h3>
+## ⟡ &nbsp;Open Source
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📮 &nbsp;[xoutbox](https://github.com/Ali127Dev/xoutbox)
+
+Broker-agnostic **Transactional Outbox** for Go. Write your state and your events in one transaction, and let the relay deliver them through pluggable **Kafka**, **NATS** or **RabbitMQ** adapters.
+
+[![tag](https://img.shields.io/github/v/tag/Ali127Dev/xoutbox?style=flat-square&label=latest&labelColor=0d1117&color=C9A961)](https://github.com/Ali127Dev/xoutbox/tags)
+[![Go](https://img.shields.io/github/go-mod/go-version/Ali127Dev/xoutbox?style=flat-square&labelColor=0d1117&color=00ADD8&logo=go&logoColor=white)](https://github.com/Ali127Dev/xoutbox)
+
+</td>
+<td width="50%" valign="top">
+
+### 🧯 &nbsp;[xerr](https://github.com/Ali127Dev/xerr)
+
+**Structured error handling** for Go. Typed, contextual errors that stay readable in logs and traces. Gated by golangci-lint CI and running in production.
+
+[![tag](https://img.shields.io/github/v/tag/Ali127Dev/xerr?style=flat-square&label=latest&labelColor=0d1117&color=C9A961)](https://github.com/Ali127Dev/xerr/tags)
+[![Go](https://img.shields.io/github/go-mod/go-version/Ali127Dev/xerr?style=flat-square&labelColor=0d1117&color=00ADD8&logo=go&logoColor=white)](https://github.com/Ali127Dev/xerr)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## ⟡ &nbsp;Toolbox
+
+<table>
+<tr>
+<td align="right" width="190"><sub><b>LANGUAGES</b></sub></td>
+<td><img src="https://skillicons.dev/icons?i=go,ts,js,rust,java&theme=dark" height="40" alt="languages" /></td>
+</tr>
+<tr>
+<td align="right"><sub><b>FRAMEWORKS</b></sub></td>
+<td><img src="https://skillicons.dev/icons?i=nestjs,express,nodejs,react,nextjs&theme=dark" height="40" alt="frameworks" /></td>
+</tr>
+<tr>
+<td align="right"><sub><b>DATA &amp; MESSAGING</b></sub></td>
+<td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,kafka&theme=dark" height="40" alt="data" /> &nbsp;<sub>+ NATS JetStream · BullMQ</sub></td>
+</tr>
+<tr>
+<td align="right"><sub><b>INFRA &amp; OBSERVABILITY</b></sub></td>
+<td><img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,gitlab,prometheus,grafana&theme=dark" height="40" alt="infra" /> &nbsp;<sub>+ OpenTelemetry</sub></td>
+</tr>
+</table>
+
+<br/>
+
+## ⟡ &nbsp;Engineering Philosophy
+
+> [!IMPORTANT]
+> **Code should be predictable, maintainable, and boring,**
+> **because boring code is the most reliable code when production gets wild.**
+
+<details>
+<summary><b>The principles behind it</b> <sub>(click to expand)</sub></summary>
+
+<br/>
+
+| | Principle | In practice |
+|:--:|:--|:--|
+| 01 | **Simple beats clever** | The best architecture is the one the next engineer understands at a glance. |
+| 02 | **Measure, then optimize** | Profile first. Every index and every cache earns its place with data. |
+| 03 | **Delivery is a contract** | Outbox over dual writes. Idempotency wherever a retry can hurt. |
+| 04 | **Boundaries are features** | Bounded contexts let code and teams evolve without stepping on each other. |
+| 05 | **Observe everything** | If it isn't measured, it isn't in production yet. |
+
+</details>
+
+<br/>
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Go-0A0A0A?style=for-the-badge&logo=go&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/TypeScript-0A0A0A?style=for-the-badge&logo=typescript&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/NestJS-0A0A0A?style=for-the-badge&logo=nestjs&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=nodedotjs&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/PostgreSQL-0A0A0A?style=for-the-badge&logo=postgresql&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/Redis-0A0A0A?style=for-the-badge&logo=redis&logoColor=C9A96E"/>
-<br/>
-<img src="https://img.shields.io/badge/NATS-0A0A0A?style=for-the-badge&logo=natsdotio&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/Kafka-0A0A0A?style=for-the-badge&logo=apachekafka&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/Docker-0A0A0A?style=for-the-badge&logo=docker&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/Kubernetes-0A0A0A?style=for-the-badge&logo=kubernetes&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/Prometheus-0A0A0A?style=for-the-badge&logo=prometheus&logoColor=C9A96E"/>
-<img src="https://img.shields.io/badge/OpenTelemetry-0A0A0A?style=for-the-badge&logo=opentelemetry&logoColor=C9A96E"/>
+<sub>━━━━━━━━━━━━━ ◆ ━━━━━━━━━━━━━</sub>
+
+**Let's build something that scales beautifully, and fails gracefully when it must.**
+
+<sub>📍 Iran &nbsp;·&nbsp; 🌍 Open to relocation &nbsp;·&nbsp; 💻 Remote-ready</sub>
 
 </div>
-
-<br/>
-
-<img src="./assets/footer.svg" width="100%" alt="Scales beautifully. Breaks gracefully."/>
